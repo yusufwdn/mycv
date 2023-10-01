@@ -24,7 +24,8 @@ export default function Job() {
       job_descriptions: [
         "Mengembangkan aplikasi pelaporan untuk keperluan laporan keuangan bulanan di bank.",
         "Melakukan maintenance pada aplikasi yang sudah berjalan, baik itu penambahan fitur baru maupun perbaikan bug.",
-        "Menjadi konsultan untuk membantu perusahaan pembiayaan dalam mengerjakan laporan keuangan bulanan.",
+        "Menjadi konsultan bagi perusahaan pembiayaan dalam melakukan pelaporan atas laporan keuangan bulanan.",
+        "Melakukan peengolahan data yang akan digunakan untuk keperluan laporan keuangan dengan menggunakan SQL Query",
       ],
     },
   ];
