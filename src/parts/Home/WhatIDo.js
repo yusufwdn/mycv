@@ -28,7 +28,7 @@ export default function WhatIDo() {
     },
   ];
   return (
-    <section className="h-100 px-4 py-12 mb-10 bg-slate-100">
+    <section className="h-100 px-4 py-12 mb-10 bg-slate-100" id="what-i-do">
       <h5 className="flex flex-col justify-center items-center text-center text-3xl mb-12 font-medium">
         Apa yang Saya Lakukan?
         <div className="border-b-2 md:w-96 w-56 pb-1 border-purple-500"></div>
