@@ -150,8 +150,9 @@ export default function Skill() {
       <div className="flex flex-col bg-slate-100">
         <section className="h-100 px-4 py-12 mb-10 md:pl-10 md:pr-2 pl-8 pr-5 mt-12">
           <h5 className="text-center text-3xl mb-16 font-medium">
-            <span className="border-b-2 border-purple-500">
+            <span className="flex flex-col justify-center items-center">
               Kemampuan Personal
+              <div className="border-b-2 md:w-4/12 w-64 pb-1 border-purple-500"></div>
             </span>
           </h5>
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
