@@ -6,9 +6,9 @@ export default function Job() {
       company_name: "PT. WAN Teknologi Internasional",
       company_logo: require("../../assets/images/company/wan-logo.png"),
       job_title: "Web Developer",
-      job_range: "Sep 2021 - Now",
+      job_range: "Sep 2021 - Sekarang",
       job_descriptions: [
-        "Analisis aliran sistem aplikasi yang diinginkan klien.",
+        "Melakukan analisa terhadap alur sistem aplikasi yang diinginkan klien.",
         "Merancang, mengembangkan, menguji, dan memelihara sistem aplikasi web",
         "Mengembangkan layanan API untuk kebutuhan pengembang aplikasi web dan seluler pada proyek.",
         "Integrasikan aplikasi dengan layanan pihak ketiga seperti gateway pembayaran, sistem PPOB, SMS gateway, layanan pengiriman, dll.",
@@ -22,7 +22,7 @@ export default function Job() {
       job_title: "ETL Developer",
       job_range: "Sep 2020 - Agu 2021",
       job_descriptions: [
-        "Mengembangkan aplikasi pelaporan laporan keuangan bulanan di bank.",
+        "Mengembangkan aplikasi pelaporan untuk keperluan laporan keuangan bulanan di bank.",
         "Melakukan maintenance pada aplikasi yang sudah berjalan, baik itu penambahan fitur baru maupun perbaikan bug.",
         "Menjadi konsultan untuk membantu perusahaan pembiayaan dalam mengerjakan laporan keuangan bulanan.",
       ],
@@ -33,25 +33,33 @@ export default function Job() {
       {jobs.map(function (item, key) {
         return (
           <div
-            class="bg-white h-full w-100 rounded-lg mx-5 mb-16 border-2 border-purple-500 box-shadow-5"
+            class="bg-white rounded-lg md:mx-5 mx-1 mb-10 border-2 border-purple-500 box-shadow-5"
             key={key}
           >
             <div class="flex justify-center items-center leading-none">
               <img
                 src={item.company_logo}
                 alt="pic"
-                class="h-40 w-100 rounded-md mt-6 mb-2"
+                class="max-h-40 w-100 md:h-40 h-28 mt-6 mb-4"
               />
             </div>
-            <div class="flex flex-col relative justify-center items-center p-3 px-5">
-              <h5 class="block text-xl font-semibold">{item.company_name}</h5>
-              <span className="text-lg font-medium">{item.job_title}</span>
+            <div class="flex flex-col justify-center items-center mb-7">
+              <h5 class="block text-xl font-semibold md:text-left text-center">
+                {item.company_name}
+              </h5>
+              <span className="text-lg font-medium my-1">{item.job_title}</span>
               <span className="text-small font-small">{item.job_range}</span>
-              <ul className="list-disc ml-7 mr-4 mt-5">
-                {item.job_descriptions.map(function (item, key) {
-                  return <li key={`jd.${key}`}>{item}</li>;
-                })}
-              </ul>
+              <div className="ml-8 mr-5 mt-5">
+                <ul className="list-disc space-y-2">
+                  {item.job_descriptions.map(function (item, key) {
+                    return (
+                      <li key={`jd.${key}`} className="text-justify">
+                        {item}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             </div>
           </div>
         );
