@@ -34,9 +34,12 @@ export default function WhatIDo() {
         <div className="border-b-2 md:w-96 w-56 pb-1 border-purple-500"></div>
       </h5>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {things.map(function (item) {
+        {things.map(function (item, key) {
           return (
-            <div className="flex flex-col items-center justify-center border-2 border-purple-500 rounded-xl py-4 px-6 bg-white box-shadow-10 md:mx-0 mx-3">
+            <div
+              className="flex flex-col items-center justify-center border-2 border-purple-500 rounded-xl py-4 px-6 bg-white box-shadow-10 md:mx-0 mx-3"
+              key={`whatido.${key}`}
+            >
               <img src={item.image} className="w-8" alt="img" />
               <h5 className="text-lg font-medium mt-2 mb-3">{item.title}</h5>
               <p className="text-md text-justify">{item.description}</p>

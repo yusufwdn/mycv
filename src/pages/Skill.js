@@ -152,7 +152,7 @@ export default function Skill() {
           <h5 className="text-center text-3xl mb-16 font-medium">
             <span className="flex flex-col justify-center items-center">
               Kemampuan Personal
-              <div className="border-b-2 md:w-4/12 w-64 pb-1 border-purple-500"></div>
+              <div className="border-b-2 md:w-96 w-64 pb-1 border-purple-500"></div>
             </span>
           </h5>
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">

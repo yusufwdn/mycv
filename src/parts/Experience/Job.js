@@ -33,18 +33,18 @@ export default function Job() {
       {jobs.map(function (item, key) {
         return (
           <div
-            class="bg-white rounded-lg md:mx-5 mx-1 mb-10 border-2 border-purple-500 box-shadow-5"
+            className="bg-white rounded-lg md:mx-5 mx-1 mb-10 border-2 border-purple-500 box-shadow-5"
             key={key}
           >
-            <div class="flex justify-center items-center leading-none">
+            <div className="flex justify-center items-center leading-none">
               <img
                 src={item.company_logo}
                 alt="pic"
-                class="max-h-40 w-100 md:h-40 h-28 mt-6 mb-4"
+                className="max-h-40 w-100 md:h-40 h-28 mt-6 mb-4"
               />
             </div>
-            <div class="flex flex-col justify-center items-center mb-7">
-              <h5 class="block text-xl font-semibold md:text-left text-center">
+            <div className="flex flex-col justify-center items-center mb-7">
+              <h5 className="block text-xl font-semibold md:text-left text-center">
                 {item.company_name}
               </h5>
               <span className="text-lg font-medium my-1">{item.job_title}</span>
