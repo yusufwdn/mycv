@@ -8,12 +8,12 @@ export default function Job() {
       job_title: "Web Developer",
       job_range: "Sep 2021 - Sekarang",
       job_descriptions: [
-        "Melakukan analisa terhadap alur sistem aplikasi yang diinginkan klien.",
-        "Merancang, mengembangkan, menguji, dan memelihara sistem aplikasi web",
-        "Mengembangkan layanan API untuk kebutuhan pengembang aplikasi web dan seluler pada proyek.",
-        "Integrasikan aplikasi dengan layanan pihak ketiga seperti gateway pembayaran, sistem PPOB, SMS gateway, layanan pengiriman, dll.",
+        "Mendesain dan mengembangkan sistem aplikasi berbasis web.",
+        "Membuat layanan API untuk kebutuhan pada aplikasi berbasis web dan/atau mobile.",
+        "Mengintegrasikan sistem aplikasi dengan layanan pihak ketiga (third-party).",
+        "Membuat Content Management System (CMS) untuk memenuhi mengelola kebutuhan konten pada aplikasi web dan mobile.",
         "Berkolaborasi dengan tim lain dalam proyek untuk mencapai target proyek.",
-        "Memastikan kode dapat dibaca dan mudah dipelihara.",
+        "Menulis kode program yang bersih, mudah dibaca, dapat digunakan berulang kali, dan mudah dikembangkan.",
       ],
     },
     {
