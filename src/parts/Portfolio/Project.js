@@ -6,8 +6,11 @@ export default function Project() {
       title: "BUMDES KITA",
       description:
         "Aplikasi marketplace yang menjual produk dan menyewa jasa yang terkait dengan bidang pertanian, perkebunan, dan peternakan yang dibuat untuk para petani dan pengusaha sejenisnya.",
-      thumbnail: require("../../assets/images/portfolio/bumdes-kita.png"),
+      thumbnail: require("../../assets/images/portfolio/bumdes.jpg"),
       skills: [
+        {
+          title: "PHP",
+        },
         {
           title: "Lumen",
         },
@@ -29,7 +32,7 @@ export default function Project() {
       title: "Bundapedia",
       description:
         "Aplikasi yang dibangun untuk mengedukasi ibu hamil, parenting, hingga menjual produk keperluan ibu hamil, keperluan persalinan dan kebutuhan bayi.",
-      thumbnail: require("../../assets/images/portfolio/bundapedia.png"),
+      thumbnail: require("../../assets/images/portfolio/bundapedia.jpg"),
       skills: [
         {
           title: "PHP",
@@ -49,11 +52,14 @@ export default function Project() {
       ],
     },
     {
-      title: "SIN Indonesia",
+      title: "Spazie",
       description:
         "Aplikasi toko online berbasis mobile yang dibangun khusus untuk menjual produk milik SIN Indonesia.",
-      thumbnail: require("../../assets/images/portfolio/sin-indonesia.png"),
+      thumbnail: require("../../assets/images/portfolio/spazie.jpg"),
       skills: [
+        {
+          title: "PHP",
+        },
         {
           title: "Lumen",
         },
@@ -65,6 +71,125 @@ export default function Project() {
         },
         {
           title: "Back-End Development",
+        },
+        {
+          title: "API Integration",
+        },
+      ],
+    },
+    {
+      title: "SIN Indonesia",
+      description:
+        "Aplikasi toko online berbasis mobile yang dibangun khusus untuk menjual produk milik SIN Indonesia.",
+      thumbnail: require("../../assets/images/portfolio/sin-indonesia.png"),
+      skills: [
+        {
+          title: "PHP",
+        },
+        {
+          title: "Lumen",
+        },
+        {
+          title: "MySQL",
+        },
+        {
+          title: "REST API",
+        },
+        {
+          title: "Back-End Development",
+        },
+        {
+          title: "API Integration",
+        },
+      ],
+    },
+    {
+      title: "Order Non Stop",
+      description:
+        "Aplikasi berbasis mobile yang menjual barang-barang terkini dengan konsep semacam media sosial.",
+      thumbnail: require("../../assets/images/portfolio/order-non-stop.jpg"),
+      skills: [
+        {
+          title: "PHP",
+        },
+        {
+          title: "Lumen",
+        },
+        {
+          title: "MySQL",
+        },
+        {
+          title: "REST API",
+        },
+        {
+          title: "Back-End Development",
+        },
+        {
+          title: "API Integration",
+        },
+      ],
+    },
+    {
+      title: "Beliyuu",
+      description:
+        "Sebuah sistem aplikasi marketplace yang dimana pengguna dapat melakukan transaksi produk-produk UMKM.",
+      thumbnail: require("../../assets/images/portfolio/beliyuu.jpg"),
+      skills: [
+        {
+          title: "PHP",
+        },
+        {
+          title: "Lumen",
+        },
+        {
+          title: "CodeIgniter 3",
+        },
+        {
+          title: "MySQL",
+        },
+        {
+          title: "REST API",
+        },
+        {
+          title: "API Integration",
+        },
+        {
+          title: "Web Development",
+        },
+        {
+          title: "Back-End Development",
+        },
+      ],
+    },
+    {
+      title: "PEPI SIAKAD",
+      description:
+        "Sebuah aplikasi Sistem Informasi Akademik berbasis web milik Politeknik Enjiniring Pertanian Indonesia (PEPI).",
+      thumbnail: require("../../assets/images/portfolio/pepi-dashboard.png"),
+      skills: [
+        {
+          title: "PHP",
+        },
+        {
+          title: "Laravel",
+        },
+        {
+          title: "Livewire",
+        },
+        {
+          title: "Bootstrap",
+        },
+        {
+          title: "JavsScript",
+        },
+        {
+          title: "MySQL",
+        },
+        {
+          title: "REST API",
+        },
+        {
+          title: "Web Development",
         },
         {
           title: "API Integration",
