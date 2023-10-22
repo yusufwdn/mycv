@@ -84,7 +84,7 @@ export default function Skill() {
     },
     {
       title: "Node Js",
-      star: 6,
+      star: 5,
       description:
         "Memiliki pemahaman dan pengetahuan yang cukup baik pada fundamental Node Js, memiliki kemampuan dalam mengembangkan layanan RESTful API beserta membuat unit testing.",
       imageComponent: {
@@ -96,7 +96,7 @@ export default function Skill() {
     },
     {
       title: "React Js",
-      star: 6,
+      star: 5,
       description:
         "Memiliki pemahaman dan pengetahuan dasar pada fitur yang terdapat di dalam React Js seperti slicing html, react component, state management, integrasi API, dan dasar-dasar hooks.",
       imageComponent: {
@@ -108,7 +108,7 @@ export default function Skill() {
     },
     {
       title: "Go",
-      star: 5,
+      star: 4,
       description:
         "Memiliki pemahaman dan pengetahuan dasar dalam lingkungan kerja Go dan juga memiliki kemampuan untuk membuat sistem back-end dengan menerapkan artsitektur REST.",
       imageComponent: {
