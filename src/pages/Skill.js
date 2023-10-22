@@ -84,9 +84,9 @@ export default function Skill() {
     },
     {
       title: "Node Js",
-      star: 5,
+      star: 6,
       description:
-        "Memiliki pemahaman dan pengetahuan yang cukup baik pada fundamental Node Js, saya dapat membuat layanan RESTful API beserta unit testing sederhana.",
+        "Memiliki pemahaman dan pengetahuan yang cukup baik pada fundamental Node Js, memiliki kemampuan dalam mengembangkan layanan RESTful API beserta membuat unit testing.",
       imageComponent: {
         width: "48",
         height: "48",
@@ -108,9 +108,9 @@ export default function Skill() {
     },
     {
       title: "Go",
-      star: 4,
+      star: 5,
       description:
-        "Memiliki pemahaman dan pengetahuan dasar dalam lingkungan kerja Go. Saya telah memiliki kemampuan untuk membuat RESTful API sederhana dengan menggunakan Gin.",
+        "Memiliki pemahaman dan pengetahuan dasar dalam lingkungan kerja Go dan juga memiliki kemampuan untuk membuat sistem back-end dengan menerapkan artsitektur REST.",
       imageComponent: {
         width: "48",
         height: "48",
