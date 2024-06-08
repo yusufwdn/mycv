@@ -10,7 +10,7 @@ export default function Hero() {
 
   return (
     <section className="flex justify-center h-screen bg-black text-white">
-      <div className="flex flex-col justify-center items-center mt-28 md:mt-48 z-10">
+      <div className="flex flex-col justify-center items-center mt-28 md:mt-34 z-10">
         <h2 className="text-4xl md:text-6xl">Yusuf Wandana</h2>
         <h3 className="mt-2 text-xl">Web Developer</h3>
         <div className="flex flex-wrap my-3">
@@ -75,7 +75,7 @@ export default function Hero() {
         >
           Download CV
         </a>
-        <button
+        {/* <button
           className="bg-purple-100 p-2 mt-20 rounded-full animate-bounce"
           type="button"
           onClick={scrollTo}
@@ -86,7 +86,7 @@ export default function Hero() {
             src="https://img.icons8.com/ios/50/double-down--v4.png"
             alt="double-down--v4"
           />
-        </button>
+        </button> */}
       </div>
     </section>
   );
