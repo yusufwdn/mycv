@@ -1,12 +1,12 @@
 import React from "react";
 
 export default function Hero() {
-  const scrollTo = () => {
-    const targetElement = document.getElementById("what-i-do");
-    if (targetElement) {
-      targetElement.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const scrollTo = () => {
+  //   const targetElement = document.getElementById("what-i-do");
+  //   if (targetElement) {
+  //     targetElement.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
 
   return (
     <section className="flex justify-center h-screen bg-black text-white">
