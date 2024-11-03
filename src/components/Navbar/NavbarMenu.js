@@ -14,11 +14,11 @@ export default function NavbarMenu() {
       to: "/",
     },
     {
-      title: "Kemampuan",
-      to: "/skills",
+      title: "Technologies",
+      to: "/technologies",
     },
     {
-      title: "Pengalaman",
+      title: "Experiences",
       to: "/experience",
     },
     {

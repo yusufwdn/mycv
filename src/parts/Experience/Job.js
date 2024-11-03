@@ -3,17 +3,28 @@ import React from "react";
 export default function Job() {
   const jobs = [
     {
+      company_name: "PT. Elistec Informatika Utama",
+      company_logo: require("../../assets/images/company/EIU-logo.png"),
+      job_title: "Software Developer",
+      job_range: "Nov 2023 - Now",
+      job_descriptions: [
+        "Implement and develop K2 Five-based software while ensuring application performance through maintenance and bug fixes.",
+        "Design the database architecture to support the application's development needs.",
+        "Troubleshoot issues and add features based on user requirements."
+      ],
+    },
+    {
       company_name: "PT. WAN Teknologi Internasional",
       company_logo: require("../../assets/images/company/wan-logo.png"),
       job_title: "Web Developer",
-      job_range: "Sep 2021 - Sekarang",
+      job_range: "Sep 2021 - Nov 2023",
       job_descriptions: [
-        "Mendesain dan mengembangkan sistem aplikasi berbasis web.",
-        "Membuat layanan API untuk kebutuhan pada aplikasi berbasis web dan/atau mobile.",
-        "Mengintegrasikan sistem aplikasi dengan layanan pihak ketiga (third-party).",
-        "Membuat Content Management System (CMS) untuk memenuhi mengelola kebutuhan konten pada aplikasi web dan mobile.",
-        "Berkolaborasi dengan tim lain dalam proyek untuk mencapai target proyek.",
-        "Menulis kode program yang bersih, mudah dibaca, dapat digunakan berulang kali, dan mudah dikembangkan.",
+        "Analyze client system needs to provide optimal solutions.",
+        "Design and develop web applications according to identified bussiness flows.",
+        "Build API services for web and/or mobile application needs.",
+        "Ensure the application runs smoothly through maintenance and bug fixes.",
+        "Collaborate with all teams related to the projects.",
+        "Become a team leader for several projects.",
       ],
     },
     {
@@ -22,10 +33,9 @@ export default function Job() {
       job_title: "ETL Developer",
       job_range: "Sep 2020 - Agu 2021",
       job_descriptions: [
-        "Mengembangkan aplikasi pelaporan untuk keperluan laporan keuangan bulanan di bank.",
-        "Melakukan maintenance pada aplikasi yang sudah berjalan, baik itu penambahan fitur baru maupun perbaikan bug.",
-        "Menjadi konsultan bagi perusahaan pembiayaan dalam melakukan pelaporan atas laporan keuangan bulanan.",
-        "Melakukan peengolahan data yang akan digunakan untuk keperluan laporan keuangan dengan menggunakan SQL Query",
+        "Develop reporting application for monthly financial report in a bank.",
+        "Maintenance existing application (add new features and bug fixing).",
+        "Become a consultant to assist finance companies in working on monthly financial report."
       ],
     },
   ];

@@ -32,8 +32,8 @@ function Stars({ total }) {
   );
 }
 
-export default function Skill() {
-  const skills = [
+export default function Technology() {
+  const technologies = [
     {
       title: "Laravel / Lumen",
       star: 8,
@@ -151,12 +151,12 @@ export default function Skill() {
         <section className="h-100 px-4 py-12 mb-10 md:pl-10 md:pr-2 pl-8 pr-5 mt-12">
           <h5 className="text-center text-3xl mb-16 font-medium">
             <span className="flex flex-col justify-center items-center">
-              Kemampuan Personal
+              TECHNOLOGIES 
               <div className="border-b-2 md:w-96 w-64 pb-1 border-purple-500"></div>
             </span>
           </h5>
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
-            {skills.map(function (item, key) {
+            {technologies.map(function (item, key) {
               return (
                 <div
                   className="flex flex-col relative justify-center border-2 border-purple-500 rounded-xl py-4 px-6 md:mx-4 mx-0 mb-8 bg-white box-shadow-5"

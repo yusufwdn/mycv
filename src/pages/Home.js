@@ -6,7 +6,7 @@ import { loadFull } from "tsparticles";
 import Header from "../parts/Header";
 import Footer from "../parts/Footer";
 import Hero from "../parts/Home/Hero";
-import WhatIDo from "../parts/Home/WhatIDo";
+import Skill from "../parts/Home/Skill";
 
 export default function Home() {
   const particlesInit = async (main) => {
@@ -75,7 +75,7 @@ export default function Home() {
       <Header />
       <div className="flex flex-col">
         <Hero />
-        <WhatIDo />
+        <Skill />
       </div>
       <Footer />
       <Particles

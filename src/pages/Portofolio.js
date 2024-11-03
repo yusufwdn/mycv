@@ -13,7 +13,7 @@ export default function Portofolio() {
           {/* <div className="flex flex-col items-center justify-center w-full"> */}
           <h5 className="text-center text-3xl mb-16 font-medium">
             <span className="flex flex-col justify-center items-center">
-              Portofolio Proyek
+              MY PORTOFOLIO
               <div className="border-b-2 md:w-96 w-64 pb-1 border-purple-500"></div>
             </span>
           </h5>

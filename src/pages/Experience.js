@@ -12,7 +12,7 @@ export default function Experience() {
         <section className="flex flex-col items-center w-full h-100 py-12 mb-10 mt-12">
           <h5 className="text-center text-3xl mb-16 font-medium">
             <span className="flex flex-col justify-center items-center">
-              Riwayat Pengalaman
+              WORK EXPERIENCES
               <div className="border-b-2 md:w-96 w-64 pb-1 border-purple-500"></div>
             </span>
           </h5>
