@@ -35,62 +35,62 @@ function Stars({ total }) {
 export default function Technology() {
   const technologies = [
     {
-      title: "Laravel / Lumen",
-      star: 8,
+      title: "Laravel",
+      star: 9,
       description:
-        "Dengan pengalaman bekerja lebih dari 2 tahun, saya telah mengerjakan berbagai proyek dengan studi kasus beragam. Tentunya saya telah memiliki pemahaman yang kuat tentang lingkungan dan kerangka kerja Laravel.",
+        "With over 2 years of experience, I have handled a variety of projects with diverse case studies, which has cultivated a strong understanding of the Laravel ecosystem and framework. Because Laravel is a PHP-based framework, therefore I can also understand the PHP programming language.",
       imageComponent: {
         width: "48",
         height: "48",
-        src: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-laravel-is-a-free-open-source-php-web-framework-logo-color-tal-revivo.png",
+        src: "https://img.icons8.com/?size=100&id=qfQaIYKX23qY&format=png&color=000000",
         alt: "external-laravel-is-a-free-open-source-php-web-framework-logo-color-tal-revivo",
-      },
-    },
-    {
-      title: "Livewire",
-      star: 7,
-      description:
-        "Memiliki pemahaman yang cukup kuat dalam pengembangan web menggunakan Livewire. Karena saya sudah mengerjakan beberapa proyek dengan menggunakan Livewire sebagai komponen pendukung dari proyek yang berbasis Laravel.",
-      imageComponent: {
-        width: "48",
-        height: "48",
-        src: "https://icon.icepanel.io/Technology/svg/Livewire.svg",
-        alt: "livewire-logo-from-tech-icons",
       },
     },
     {
       title: "Bootstrap",
       star: 8,
       description:
-        "Saya cukup mahir dalam menggunakan Bootstrap. Karena selama tergabung dalam suatu proyek berbasis web, saya sering kali menggunakan Bootstrap sebagai kerangka kerja untuk styling dan layouting.",
+        "I have a solid proficiency in utilizing Bootstrap. Throughout my involvement in various web-based projects, I routinely leverage Bootstrap as the primary framework for styling and layout. Based on this, of course I understand the project environment that uses Bootstrap.",
       imageComponent: {
         width: "48",
         height: "48",
-        src: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-bootstrap-a-free-and-open-source-css-framework-logo-color-tal-revivo.png",
-        alt: "external-bootstrap-a-free-and-open-source-css-framework-logo-color-tal-revivo",
+        src: "https://img.icons8.com/?size=100&id=EzPCiQUqWWEa&format=png&color=000000",
+        alt: "bootstrap",
       },
     },
     {
       title: "TailwindCSS",
-      star: 7,
+      star: 6,
       description:
-        "Saya memiliki pemahaman serta kemampuan yang cukup baik dalam melakukan styling dan layouting dengan menggunakan TailwindCSS pada suatu proyek aplikasi berbasis web.",
+        "I a good understanding and proficiency in styling and layout using TailwindCSS for web application projects. These skills enable me to create visually appealing and responsive interfaces. I am continually exploring new features and best practices in TailwindCSS to enhance my design capabilities further.",
       imageComponent: {
         width: "48",
         height: "48",
-        src: "https://img.icons8.com/fluency/48/tailwind_css.png",
+        src: "https://img.icons8.com/?size=100&id=WoopfRcDj3RF&format=png&color=000000",
         alt: "tailwind_css",
       },
     },
     {
-      title: "Node Js",
-      star: 5,
+      title: "Javascript",
+      star: 7,
       description:
-        "Memiliki pemahaman dan pengetahuan yang cukup baik pada fundamental Node Js, memiliki kemampuan dalam mengembangkan layanan RESTful API beserta membuat unit testing.",
+        "I possess the ability to utilize JavaScript for web development, often combining it with Laravel in my projects. With a solid understanding of JavaScript operations, I can develop interactive and responsive interfaces while enhancing the overall functionality of web applications.",
       imageComponent: {
         width: "48",
         height: "48",
-        src: "https://img.icons8.com/fluency/48/node-js.png",
+        src: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+        alt: "javascript--v1",
+      },
+    },
+    {
+      title: "Node.js",
+      star: 7,
+      description:
+        "I have a good understanding of the fundamentals of Node.js and a reasonable knowledge of developing RESTful API services. I am capable of designing and implementing the necessary endpoints and creating unit tests to ensure that the basic functions of the application work as expected.",
+      imageComponent: {
+        width: "48",
+        height: "48",
+        src: "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
         alt: "node-js",
       },
     },
@@ -98,7 +98,7 @@ export default function Technology() {
       title: "React Js",
       star: 5,
       description:
-        "Memiliki pemahaman dan pengetahuan dasar pada fitur yang terdapat di dalam React Js seperti slicing html, react component, state management, integrasi API, dan dasar-dasar hooks.",
+        "I have a foundational understanding and knowledge of the features available in React.js, including slicing HTML, using React components, state management, API integration, and the basics of hooks. This experience has helped me grasp the fundamental workings of React and how to implement it in projects.",
       imageComponent: {
         width: "100",
         height: "100",
@@ -108,9 +108,9 @@ export default function Technology() {
     },
     {
       title: "Go",
-      star: 4,
+      star: 5,
       description:
-        "Memiliki pemahaman dan pengetahuan dasar dalam lingkungan kerja Go dan juga memiliki kemampuan untuk membuat sistem back-end dengan menerapkan artsitektur REST.",
+        "I have a good understanding and knowledge of the Go work environment, along with the ability to develop back-end systems using REST architecture. Currently, I am exploring the implementation of microservices in Golang to upgrade my skills and understanding in building more complex applications.",
       imageComponent: {
         width: "48",
         height: "48",
@@ -122,23 +122,23 @@ export default function Technology() {
       title: "MySQL",
       star: 7,
       description:
-        "Memiliki pengalaman, pemahaman, dan pengetahuan yang baik dalam pengoperasian query untuk keperluan transaksi database. Saya juga mampu merancang database untuk keperluan sistem aplikasi.",
+        "I frequently utilize MySQL as a key component in my projects. So, I have practical experience and good understanding in making queries for database transactions. I am also able to design databases according to the needs of the application to be developed.",
       imageComponent: {
         width: "48",
         height: "48",
-        src: "https://img.icons8.com/external-those-icons-flat-those-icons/48/external-MySQL-programming-and-development-those-icons-flat-those-icons.png",
-        alt: "external-MySQL-programming-and-development-those-icons-flat-those-icons",
+        src: "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
+        alt: "mysql-logo",
       },
     },
     {
-      title: "Git VCS",
+      title: "Git",
       star: 7,
       description:
-        "Memiliki pemahaman yang cukup baik tentang konsep serta penggunaan perintah Git, menyelesaikan konflik pada commit, serta melakukan kolaborasi dengan tim lain pada suatu proyek. ",
+        "I have a good understanding of the concept of using Git commands for my project collaboration needs. I also have experience collaborating effectively with teams on projects using Git. This experience has enhanced my ability to engage in collaborative software development.",
       imageComponent: {
         width: "48",
         height: "48",
-        src: "https://img.icons8.com/color/48/git.png",
+        src: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
         alt: "git",
       },
     },

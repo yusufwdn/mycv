@@ -40,7 +40,7 @@ export default function Skills() {
     },
   ];
   return (
-    <section className="h-100 px-4 pt-20 mb-10 bg-slate-100" id="what-i-do">
+    <section className="h-100 px-4 pt-14 pb-16 bg-slate-200" id="what-i-do">
       <h5 className="flex flex-col justify-center items-center text-center text-3xl mb-10 font-medium">
         MAIN SKILLS
         <div className="border-b-2 md:w-96 w-56 pb-1 border-purple-500"></div>
