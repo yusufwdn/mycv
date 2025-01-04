@@ -110,7 +110,7 @@ export default function Technology() {
       title: "Go",
       star: 5,
       description:
-        "I have a good understanding and knowledge of the Go work environment, along with the ability to develop back-end systems using REST architecture. Currently, I am exploring the implementation of microservices in Golang to upgrade my skills and understanding in building more complex applications.",
+        "I have a good understanding and knowledge of the Go work environment, along with the ability to develop backend systems using REST architecture. Currently, I am exploring the implementation of microservices in Golang to upgrade my skills and understanding in building more complex applications.",
       imageComponent: {
         width: "48",
         height: "48",

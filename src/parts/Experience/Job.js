@@ -8,9 +8,12 @@ export default function Job() {
       job_title: "Software Developer",
       job_range: "Nov 2023 - Now",
       job_descriptions: [
-        "Implement and develop K2 Five-based software while ensuring application performance through maintenance and bug fixes.",
-        "Design the database architecture to support the application's development needs.",
-        "Troubleshoot issues and add features based on user requirements."
+        "Develop application systems with multiple modules using K2 by Nintex, including database design, form creation, and workflow development.",
+        "Build and optimize dynamic workflows to streamline and automate business processes effectively.",
+        "Test and validate all created modules to ensure functionality, reliability, and alignment with client requirements.",
+        "Collaborate with clients to tailor applications that meet specific business objectives and operational needs.",
+        "Maintain and update applications to ensure seamless operations and adaptability to evolving business demands.",
+        "Create comprehensive technical documentation to support development continuity and enhance team collaboration."
       ],
     },
     {
@@ -21,7 +24,7 @@ export default function Job() {
       job_descriptions: [
         "Analyze client system needs to provide optimal solutions.",
         "Design and develop web applications according to identified bussiness flows.",
-        "Build API services for web and/or mobile application needs.",
+        "Build and maintain API services for web and/or mobile application needs.",
         "Ensure the application runs smoothly through maintenance and bug fixes.",
         "Collaborate with all teams related to the projects.",
         "Become a team leader for several projects.",

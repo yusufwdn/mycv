@@ -5,7 +5,7 @@ export default function Project() {
     {
       title: "BUMDES KITA",
       description:
-        "Aplikasi marketplace yang menjual produk dan menyewa jasa yang terkait dengan bidang pertanian, perkebunan, dan peternakan yang dibuat untuk para petani dan pengusaha sejenisnya.",
+        "A marketplace application that sells products and rents services related to the fields of agriculture, plantations, and animal husbandry created for farmers and similar entrepreneurs.",
       thumbnail: require("../../assets/images/portfolio/bumdes.jpg"),
       skills: [
         {
@@ -21,7 +21,7 @@ export default function Project() {
           title: "REST API",
         },
         {
-          title: "Back-End Development",
+          title: "Backend Development",
         },
         {
           title: "API Integration",
@@ -31,7 +31,7 @@ export default function Project() {
     {
       title: "Bundapedia",
       description:
-        "Aplikasi yang dibangun untuk mengedukasi ibu hamil, parenting, hingga menjual produk keperluan ibu hamil, keperluan persalinan dan kebutuhan bayi.",
+        "An application built to provide special education for pregnant women, parenting, and selling products for pregnant women, childbirth, and baby needs.",
       thumbnail: require("../../assets/images/portfolio/bundapedia.jpg"),
       skills: [
         {
@@ -54,7 +54,7 @@ export default function Project() {
     {
       title: "Spazie",
       description:
-        "Aplikasi toko online berbasis mobile yang dibangun khusus untuk menjual produk milik SIN Indonesia.",
+        "It is a web and mobile based application built for hotel accommodation booking needs.",
       thumbnail: require("../../assets/images/portfolio/spazie.jpg"),
       skills: [
         {
@@ -70,7 +70,7 @@ export default function Project() {
           title: "REST API",
         },
         {
-          title: "Back-End Development",
+          title: "Backend Development",
         },
         {
           title: "API Integration",
@@ -80,7 +80,7 @@ export default function Project() {
     {
       title: "SIN Indonesia",
       description:
-        "Aplikasi toko online berbasis mobile yang dibangun khusus untuk menjual produk milik SIN Indonesia.",
+        "A mobile-based online store application built specifically to sell SIN Indonesia's products.",
       thumbnail: require("../../assets/images/portfolio/sin-indonesia.png"),
       skills: [
         {
@@ -96,7 +96,7 @@ export default function Project() {
           title: "REST API",
         },
         {
-          title: "Back-End Development",
+          title: "Backend Development",
         },
         {
           title: "API Integration",
@@ -106,7 +106,7 @@ export default function Project() {
     {
       title: "Order Non Stop",
       description:
-        "Aplikasi berbasis mobile yang menjual barang-barang terkini dengan konsep semacam media sosial.",
+        "A mobile-based application that sells famous items by implementing the concept of social media in it.",
       thumbnail: require("../../assets/images/portfolio/order-non-stop.jpg"),
       skills: [
         {
@@ -122,7 +122,7 @@ export default function Project() {
           title: "REST API",
         },
         {
-          title: "Back-End Development",
+          title: "Backend Development",
         },
         {
           title: "API Integration",
@@ -132,7 +132,7 @@ export default function Project() {
     {
       title: "Beliyuu",
       description:
-        "Sebuah sistem aplikasi marketplace yang dimana pengguna dapat melakukan transaksi produk-produk UMKM.",
+        "A web and mobile-based marketplace application system built to sell products from local micro-medium entrepreneurs.",
       thumbnail: require("../../assets/images/portfolio/beliyuu.jpg"),
       skills: [
         {
@@ -157,14 +157,14 @@ export default function Project() {
           title: "Web Development",
         },
         {
-          title: "Back-End Development",
+          title: "Backend Development",
         },
       ],
     },
     {
       title: "PEPI SIAKAD",
       description:
-        "Sebuah aplikasi Sistem Informasi Akademik berbasis web milik Politeknik Enjiniring Pertanian Indonesia (PEPI).",
+        "An information system application for academic operations and a web-based learning management system (LMS) used to assist lecturers and students in lectures at the Politeknik Enjiniring Pertanian Indonesia (PEPI).",
       thumbnail: require("../../assets/images/portfolio/pepi-dashboard.png"),
       skills: [
         {
