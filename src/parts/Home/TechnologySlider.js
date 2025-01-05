@@ -6,10 +6,10 @@ import Slider from "react-slick";
 
 const TechnologySlider = () => {
     const [settings] = useState({
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 6,
+      slidesToShow: 7,
       slidesToScroll: 1,
       initialSlide: 0,
       autoplay: true,
@@ -37,29 +37,20 @@ const TechnologySlider = () => {
         {
           breakpoint: 480,
           settings:{
-            slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToShow: 2,
+            slidesToScroll: 2
           }
         }
       ]
     });
 
-    const technologies = [
+    const technologies1 = [
       {
         title: "Laravel",
         star: 8,
         imageComponent: {
-          // src: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-laravel-is-a-free-open-source-php-web-framework-logo-color-tal-revivo.png",
           src: "https://img.icons8.com/?size=100&id=lRjcvhvtR81o&format=png&color=000000",
           alt: "external-laravel-is-a-free-open-source-php-web-framework-logo-color-tal-revivo",
-        },
-      },
-      {
-        title: "Livewire",
-        star: 7,
-        imageComponent: {
-          src: "https://icon.icepanel.io/Technology/svg/Livewire.svg",
-          alt: "livewire-logo-from-tech-icons",
         },
       },
       {
@@ -67,7 +58,7 @@ const TechnologySlider = () => {
         star: 7,
         imageComponent: {
           src: "https://img.icons8.com/?size=100&id=39856&format=png&color=7950F2",
-          alt: "https://img.icons8.com/?size=100&id=39856&format=png&color=7950F2",
+          alt: "icons8-php",
         },
       },
       {
@@ -75,7 +66,41 @@ const TechnologySlider = () => {
         star: 7,
         imageComponent: {
           src: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
-          alt: "https://img.icons8.com/?size=100&id=108784&format=png&color=000000",
+          alt: "icons8-javascript",
+        },
+      },
+      {
+        title: "Go",
+        star: 4,
+        imageComponent: {
+          src: "https://icon.icepanel.io/Technology/svg/Go.svg",
+          alt: "golang-icon-from-tech-icons",
+        },
+      },
+      {
+        title: "Node.js",
+        star: 5,
+        imageComponent: {
+          src: "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
+          alt: "icons8-nodejs",
+        },
+      },
+      {
+        title: "Express",
+        star: 5,
+        imageComponent: {
+          src: "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
+          alt: "icons8-expressjs",
+        },
+      },
+      {
+        title: "React",
+        star: 5,
+        imageComponent: {
+          width: "100",
+          height: "100",
+          src: "https://img.icons8.com/plasticine/100/react.png",
+          alt: "icons8-react",
         },
       },
       {
@@ -91,43 +116,12 @@ const TechnologySlider = () => {
         star: 7,
         imageComponent: {
           src: "https://img.icons8.com/?size=100&id=WoopfRcDj3RF&format=png&color=000000",
-          alt: "tailwind_css",
+          alt: "incos8-tailwindcss",
         },
-      },
-      {
-        title: "Node.js",
-        star: 5,
-        imageComponent: {
-          src: "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
-          alt: "node-js",
-        },
-      },
-      {
-        title: "Express",
-        star: 5,
-        imageComponent: {
-          src: "https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000",
-          alt: "express-js",
-        },
-      },
-      {
-        title: "React",
-        star: 5,
-        imageComponent: {
-          width: "100",
-          height: "100",
-          src: "https://img.icons8.com/plasticine/100/react.png",
-          alt: "react",
-        },
-      },
-      {
-        title: "Go",
-        star: 4,
-        imageComponent: {
-          src: "https://icon.icepanel.io/Technology/svg/Go.svg",
-          alt: "golang-icon-from-tech-icons",
-        },
-      },
+      }
+    ];
+
+    const technologies2 = [
       {
         title: "MySQL",
         star: 7,
@@ -137,11 +131,59 @@ const TechnologySlider = () => {
         },
       },
       {
+        title: "PostgreSQL",
+        star: 6,
+        imageComponent: {
+          src: "https://img.icons8.com/?size=100&id=38561&format=png&color=000000",
+          alt: "icons8-postgresql",
+        },
+      },
+      {
+        title: "Docker",
+        star: 5,
+        imageComponent: {
+          src: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+          alt: "icons8-docker",
+        },
+      },
+      {
         title: "Git",
-        star: 7,
+        star: 8,
         imageComponent: {
           src: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
-          alt: "git",
+          alt: "icons8-git",
+        },
+      },
+      {
+        title: "Postman",
+        star: 9,
+        imageComponent: {
+          src: "https://img.icons8.com/?size=100&id=IoYmHUxgvrFB&format=png&color=000000",
+          alt: "icons8-postman",
+        },
+      },
+      {
+        title: "Linux",
+        star: 6,
+        imageComponent: {
+          src: "https://img.icons8.com/?size=100&id=17842&format=png&color=000000",
+          alt: "icons8-linux",
+        },
+      },
+      {
+        title: "Redis",
+        star: 5,
+        imageComponent: {
+          src: "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000",
+          alt: "icons8-redis",
+        },
+      },
+      {
+        title: "MongoDB",
+        star: 5,
+        imageComponent: {
+          src: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000",
+          alt: "icons8-mongodb",
         },
       },
     ];
@@ -156,7 +198,23 @@ const TechnologySlider = () => {
             </h5>
             <div className="bg-white pt-5">
               <Slider {...settings}>
-                {technologies.map((item, index) => (
+                {technologies1.map((item, index) => (
+                  <div className="text-center w-100 pt-10 pb-5">
+                    <img
+                      className="justify-self-center"
+                      width={`85`}
+                      src={item.imageComponent.src}
+                      alt={item.imageComponent.alt}
+                      key={`skill-slider.${index}`}
+                    />
+                    <p className="font-semibold py-5">{item.title}</p>
+                  </div>
+                ))}
+              </Slider>
+            </div>
+            <div className="bg-white pt-5">
+              <Slider {...settings}>
+                {technologies2.map((item, index) => (
                   <div className="text-center w-100 pt-10 pb-5">
                     <img
                       className="justify-self-center"
@@ -171,7 +229,7 @@ const TechnologySlider = () => {
               </Slider>
             </div>
           </div>
-          <div className="bg-white py-10 text-center">
+          <div className="bg-white pb-10 text-center">
             <a href="/technologies" className="bg-purple-500 px-4 py-2 text-white rounded hover:bg-purple-700 hover:-translate-y-1 hover:scale-110 duration-300">Show Detail Skills</a>
           </div>
         </section>
